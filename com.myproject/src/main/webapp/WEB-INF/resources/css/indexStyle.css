@@ -1,0 +1,67 @@
+
+
+
+
+#un{
+    margin-bottom:10px;
+}
+#qid
+{
+  display:inline;
+  font-size:15px;
+   color:black;
+}
+
+.step1btn
+{
+  margin-top:10px;
+}
+.questionbody input{
+   width:90%;
+   height:50px;
+   padding:15px 30px;
+}
+.answerbody input{
+    width:85%;
+    height:50%;
+    padding:15px 30px 15px 30px;
+    margin-bottom:20px;
+}
+.questionbody{
+    padding:30px;
+}
+.answerbody{
+    padding:1px 30px 30px;
+    margin-left:40px;
+}
+
+.sid{
+    border:none;
+   
+}
+.exam_subject
+{
+   float:right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#dsubmit:hover{
+  cursor:pointer;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
